@@ -1,1 +1,1 @@
-# Ezan-Vakti---Gizlilik-Politikas-
+# Ezan-Vakti---Gizlilik-Politikası-
