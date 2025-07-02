@@ -10,7 +10,9 @@ Bu gizlilik politikası, *Ezan Vakti* uygulamasının kullanıcılarından hangi
 
 ### a) Kişisel Bilgiler
 
-**Kişisel veri toplamıyoruz:** Uygulamamız, ad, soyad, e-posta, telefon numarası gibi kişisel bilgilerinizi **toplamaz**, **işlemez** ve **üçüncü kişilerle paylaşmaz**.
+**Kimlik tanımlayıcı kişisel veri toplamıyoruz:** Uygulamamız, ad, soyad, e-posta, telefon numarası gibi kimliğinizi doğrudan tanımlayan kişisel bilgileri **toplamaz**, **işlemez** ve **üçüncü kişilerle paylaşmaz**.
+
+Ancak uygulamanın temel işlevselliğini sağlamak amacıyla bazı cihaz temelli veriler (örneğin konum, dosya erişimi, kullanıcı tarafından girilen zikir içerikleri gibi) işlenebilir. Bu veriler, kullanıcı kimliğini belirlemek amacıyla kullanılmaz.
 
 ### b) Konum Bilgisi
 
@@ -22,8 +24,8 @@ Bu gizlilik politikası, *Ezan Vakti* uygulamasının kullanıcılarından hangi
 ### c) Bildirimler ve Ses
 
 - **Bildirim izni:** Uygulama, namaz vakitlerinde ve kullanıcı ayarlarına göre bildirim göndermek için bildirim izni ister.
-- **Ses izni:** Uygulama, bildirimlerde ezan veya seçilen sesi çalmak için ses izni isteyebilir.
-- **Bildirim ve ses kullanımı:** Bu izinler sadece uygulama içi bildirim ve sesli uyarı amacıyla kullanılır, başka bir amaçla kullanılmaz.
+- **Bildirim sesi kullanımı:** Uygulama, ezan veya seçilen sesi çalmak için cihazda yüklü sistem seslerini kullanır. Mikrofon erişimi veya ses kaydı yapılmaz.
+- **Bildirim kullanımı:** Bu izinler yalnızca namaz vakti hatırlatmaları için kullanılır; başka bir amaçla kullanılmaz.
 
 ### d) İnternet Erişimi
 
@@ -36,6 +38,11 @@ Bu gizlilik politikası, *Ezan Vakti* uygulamasının kullanıcılarından hangi
 - **Yerel veri:** Zikirler, bildirim ayarları, kullanıcı tercihleri gibi tüm veriler sadece cihazınızda saklanır.
 - **Veri paylaşımı:** Bu veriler geliştiriciye veya başka bir sunucuya gönderilmez.
 - **Veri güvenliği:** Uygulama, cihazda saklanan verileri korumak için Android’in standart güvenlik önlemlerini kullanır.
+
+### f) Kullanıcı Tarafından Oluşturulan Veriler
+
+Uygulama, kullanıcıların oluşturduğu içerikleri (örneğin zikir adları, sayaç bilgileri, kişisel zikir listeleri) yalnızca cihaz üzerinde yerel olarak saklar.  
+Bu veriler geliştirici ile paylaşılmaz, herhangi bir sunucuya gönderilmez ve sadece uygulama içi kullanım için tutulur.
 
 ## 3. Üçüncü Taraf Servisler ve Paylaşım
 
