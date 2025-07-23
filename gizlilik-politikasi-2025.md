@@ -20,6 +20,7 @@ Ancak uygulamanın temel işlevselliğini sağlamak amacıyla bazı cihaz temell
 - **Konumun kullanımı:** Konum verisi, sadece namaz vakitlerini doğru göstermek ve şehir seçimini kolaylaştırmak amacıyla kullanılır.
 - **Konumun paylaşımı:** Konum veriniz hiçbir şekilde cihaz dışına aktarılmaz, sunucuya gönderilmez veya üçüncü kişilerle paylaşılmaz.
 - **Konumun saklanması:** Konum verisi uygulama tarafından kaydedilmez, sadece anlık olarak kullanılır.
+- Eğer kullanıcı uygulamayı arka planda kullanırken ezan vakti bildirimlerinin gönderilmesini tercih ederse, uygulama arka plan konum izni talep edebilir. Bu izin, sadece ezan vakitlerini bulunduğunuz yere göre güncelleyebilmek amacıyla kullanılır. Uygulama arka planda sürekli konum izlemesi yapmaz; yalnızca gerektiğinde konuma erişir.
 
 ### c) Bildirimler ve Ses
 
@@ -75,3 +76,6 @@ Politika değişikliklerinden haberdar olmak için bu sayfayı düzenli olarak k
 ## 8. İletişim
 
 Herhangi bir sorunuz, öneriniz veya gizlilikle ilgili endişeniz varsa, lütfen bizimle **bekiirahmetli@gmail.com** üzerinden iletişime geçin.
+
+## 9. Google Play Politikalarına Uyum
+Uygulama, Google Play Geliştirici Politikaları ile tam uyumludur. Politikadaki gereklilikleri karşılamak için izinler yalnızca gerekli işlevler için talep edilmektedir.
