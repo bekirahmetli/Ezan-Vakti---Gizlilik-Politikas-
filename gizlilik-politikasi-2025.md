@@ -79,3 +79,90 @@ Herhangi bir sorunuz, öneriniz veya gizlilikle ilgili endişeniz varsa, lütfen
 
 ## 9. Google Play Politikalarına Uyum
 Uygulama, Google Play Geliştirici Politikaları ile tam uyumludur. Politikadaki gereklilikleri karşılamak için izinler yalnızca gerekli işlevler için talep edilmektedir.
+
+
+
+# Ezan Vakti - Privacy Policy
+
+**Last updated:** July 23, 2025
+
+## 1. Introduction
+
+This privacy policy explains what data the *Ezan Vakti* app collects from users, how it is used, stored, and protected. By downloading and using the app, you agree to this policy.
+
+## 2. Collected Data and Usage
+
+### a) Personal Information
+
+**We do not collect personally identifiable information.** The app does not collect, process, or share any data such as name, surname, email, or phone number.
+
+However, some device-based data (e.g., location, file access, or user-generated zikr content) may be processed to ensure the core functionality of the app. This data is not used to identify users.
+
+### b) Location Data
+
+- **Location permission:** The app may request location permission to display prayer times based on your city.
+- **Usage:** Location data is used solely to determine accurate prayer times and help with city selection.
+- **No sharing:** Your location is never transmitted to any server or third parties.
+- **No storage:** The location data is not stored; it is used only in real-time.
+- If the user enables background notifications, the app may request background location access. This permission is used strictly to update prayer times based on the user's location. The app does not continuously track your location in the background — it only accesses location when needed.
+
+### c) Notifications and Sound
+
+- **Notification permission:** The app may request permission to send notifications at prayer times or based on user settings.
+- **Sound usage:** The app uses built-in system sounds to play the Adhan or selected tones. It does **not** access the microphone or record any audio.
+- **Notification usage:** These permissions are only used for prayer reminders, and not for any other purpose.
+
+### d) Internet Access
+
+- **Internet permission:** The app uses internet access to update prayer times, Islamic holidays, and sermons.
+- **No personal data transmission:** No personal data is sent during these internet requests.
+- **Third-party APIs:** APIs used for prayer times and Islamic dates operate only with anonymous data like city or license plate codes.
+
+### e) On-Device Data Storage
+
+- **Local data:** All data such as zikr entries, notification settings, and user preferences are stored **locally** on your device.
+- **No sharing:** This data is not transmitted to the developer or any external server.
+- **Data security:** The app uses Android’s standard security mechanisms to protect locally stored data.
+
+### f) User-Generated Content
+
+Any content you create (e.g., zikr names, counters, personal zikr lists) is stored only on your device.  
+This data is not shared with the developer, not uploaded to any server, and is only used within the app.
+
+## 3. Third-Party Services and Data Sharing
+
+Other than Google Play services, the app does **not** use any third-party services, analytics tools, or ad SDKs.  
+No personal or anonymous data is shared with any third party.
+
+## 4. Children’s Privacy
+
+This app does not knowingly collect any personal information from children under the age of 13.  
+If a parent or guardian becomes aware that their child has provided personal data without consent, they should contact us, and we will delete the relevant data immediately.
+
+## 5. Data Retention and Security
+
+- All data collected by the app is stored **only** on your device.
+- Reasonable technical and administrative measures are taken to protect your data.
+- In case of a data breach, users will be informed and necessary actions will be taken.
+
+## 6. Permissions List and Descriptions
+
+- **Location:** Used to show prayer times based on your current city. Data is not shared externally.
+- **Notifications:** Used to send prayer time reminders based on user settings.
+- **Sound:** Used to play the Adhan or selected tones in notifications.
+- **Internet:** Used to update prayer times and Islamic calendar content.
+
+## 7. Policy Updates
+
+This privacy policy may be updated from time to time.  
+Any changes will be published on this page.  
+Please check this page periodically to stay informed of any updates.
+
+## 8. Contact
+
+If you have any questions, suggestions, or privacy concerns, please contact us at **bekiirahmetli@gmail.com**.
+
+## 9. Compliance with Google Play Policies
+
+The app fully complies with the Google Play Developer Policies.  
+Permissions are only requested to provide core functionality as required by policy.
