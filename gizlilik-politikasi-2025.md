@@ -1,6 +1,6 @@
 # Ezan Vakti - Gizlilik Politikası
 
-**Son güncelleme:** 2025-06-30
+**Son güncelleme:** 2025-07-23
 
 ## 1. Giriş
 
