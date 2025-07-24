@@ -21,10 +21,21 @@ Uygulama, kimliğinizi doğrudan tanımlayan hiçbir kişisel veri (ad, soyad, e
 - Bildirimlerde ezan veya seçilen sesi çalmak için cihazda yüklü sistem sesleri kullanılır. Mikrofon erişimi veya ses kaydı yapılmaz.
 
 ### d) İnternet Erişimi ve Üçüncü Taraf API Kullanımı
-- Uygulama, namaz vakitleri, dini günler ve hutbeler gibi bilgileri güncellemek için internet bağlantısı kullanır.
+- Uygulama, namaz vakitleri, dini günler, hutbeler ve Kur'an-ı Kerim içeriği gibi bilgileri güncellemek için internet bağlantısı kullanır.
 - **Namaz vakitleri ve dini günler için [Ezan Vakitleri - Adhan Times API](https://rapidapi.com/metekuscu/api/ezan-vakitleri-adhan-times) kullanılmaktadır.**
-- Bu API’ye sadece şehir adı veya plaka kodu gibi anonim bilgiler gönderilir. Hiçbir kişisel veri paylaşılmaz.
-- API üzerinden alınan veriler sadece uygulama içinde namaz vakitlerini göstermek amacıyla kullanılır.
+  - Bu API’ye sadece şehir adı veya plaka kodu gibi anonim bilgiler gönderilir. Hiçbir kişisel veri paylaşılmaz.
+  - API üzerinden alınan veriler sadece uygulama içinde namaz vakitlerini göstermek amacıyla kullanılır.
+- **Kur'an-ı Kerim içeriği için [Açık Kuran API](https://acikkuran.com) kullanılmaktadır.**
+  - Açık kaynak, gönüllülük esaslı, reklamsız ve tamamen kamuya açık bir projedir.
+  - Uygulamada Kur'an sureleri, ayetler, mealler ve sesli okunuşlar bu API üzerinden alınır.
+  - API üzerinden hiçbir kişisel veri gönderilmez veya alınmaz.
+  - Proje herhangi bir kurum, topluluk veya ticari amaçla ilişkili değildir.
+- **Cuma hutbeleri için [Cuma Hutbeleri API](https://api.jsonsilo.com/public/6b6e750a-762f-4e9f-9fb3-eff4c5e0bd05) kullanılmaktadır.**
+  - Bu API tamamen geliştirici tarafından oluşturulmuş ve herkese açık (public) olarak sunulmaktadır.
+  - Cuma hutbeleri başlık ve PDF linkleri gibi kamuya açık veriler içerir.
+  - Hiçbir kişisel veri içermez veya işlemez.
+
+Tüm bu API'ler sadece uygulamanın temel işlevlerini sağlamak için kullanılmakta olup, kullanıcıya ait hiçbir kişisel veya hassas veri bu API'ler üzerinden iletilmez, saklanmaz veya üçüncü kişilerle paylaşılmaz.
 
 ### e) Cihazda Saklanan Veriler
 - Zikirler, bildirim ayarları, kullanıcı tercihleri gibi tüm veriler sadece cihazınızda saklanır ve hiçbir şekilde geliştiriciye veya başka bir sunucuya gönderilmez.
@@ -46,7 +57,7 @@ Uygulama, kimliğinizi doğrudan tanımlayan hiçbir kişisel veri (ad, soyad, e
 - **Konum (Location):** Namaz vakitlerini bulunduğunuz şehre göre göstermek için kullanılır.
 - **Bildirim (Notifications):** Namaz vakitlerinde ve kullanıcı ayarlarına göre bildirim göndermek için kullanılır.
 - **Ses (Audio):** Bildirimlerde ezan veya seçilen sesi çalmak için kullanılır.
-- **İnternet (Internet):** Namaz vakitleri ve dini günler gibi bilgileri güncellemek ve API’ye erişmek için kullanılır.
+- **İnternet (Internet):** Namaz vakitleri, dini günler, hutbeler ve Kur'an içeriği gibi bilgileri güncellemek ve API’lere erişmek için kullanılır.
 
 ## 7. Politika Değişiklikleri
 Gizlilik politikası zaman zaman güncellenebilir. Değişiklikler bu sayfada yayınlanacaktır.
@@ -56,7 +67,6 @@ Herhangi bir sorunuz, öneriniz veya gizlilikle ilgili endişeniz varsa, lütfen
 
 ## 9. Google Play Politikalarına Uyum
 Uygulama, Google Play Geliştirici Politikaları ile tam uyumludur. Tüm izinler yalnızca gerekli işlevler için talep edilmektedir.
-
 
 
 # Ezan Vakti - Privacy Policy
@@ -82,10 +92,21 @@ The app does not collect, process, or share any personally identifiable informat
 - The app uses built-in system sounds to play the Adhan or selected tones. It does not access the microphone or record any audio.
 
 ### d) Internet Access and Third-Party API Usage
-- The app uses internet access to update prayer times, Islamic holidays, and sermons.
+- The app uses internet access to update prayer times, Islamic holidays, Friday sermons, and Quran content.
 - **[Ezan Vakitleri - Adhan Times API](https://rapidapi.com/metekuscu/api/ezan-vakitleri-adhan-times) is used for prayer times and Islamic dates.**
-- Only anonymous data such as city name or license plate code is sent to this API. No personal data is shared.
-- Data received from the API is used solely to display prayer times within the app.
+  - Only anonymous data such as city name or license plate code is sent to this API. No personal data is shared.
+  - Data received from the API is used solely to display prayer times within the app.
+- **[Acik Kuran API](https://acikkuran.com) is used for Quran content.**
+  - This is an open-source, volunteer-based, ad-free, and fully public project.
+  - The app uses this API to display Quran surahs, verses, translations, and audio recitations.
+  - No personal data is sent or received via this API.
+  - The project is not affiliated with any institution, community, or commercial purpose.
+- **[Friday Sermons API](https://api.jsonsilo.com/public/6b6e750a-762f-4e9f-9fb3-eff4c5e0bd05) is used for Friday sermons.**
+  - This API is fully created and maintained by the developer and is publicly accessible.
+  - Contains only public data such as Friday sermon titles and PDF links.
+  - No personal data is processed or included.
+
+All these APIs are used solely to provide the core functionality of the app, and no personal or sensitive user data is ever transmitted, stored, or shared with any third party through these APIs.
 
 ### e) On-Device Data Storage
 - All data such as zikr entries, notification settings, and user preferences are stored locally on your device and are never transmitted to the developer or any external server.
@@ -107,7 +128,7 @@ The app does not collect, process, or share any personally identifiable informat
 - **Location:** Used to show prayer times based on your current city.
 - **Notifications:** Used to send prayer time reminders based on user settings.
 - **Sound:** Used to play the Adhan or selected tones in notifications.
-- **Internet:** Used to update prayer times and Islamic calendar content and to access the API.
+- **Internet:** Used to update prayer times, Islamic calendar content, Friday sermons, and Quran content, and to access the APIs.
 
 ## 7. Policy Updates
 This privacy policy may be updated from time to time. Any changes will be published on this page.
@@ -116,7 +137,4 @@ This privacy policy may be updated from time to time. Any changes will be publis
 If you have any questions, suggestions, or privacy concerns, please contact us at bekiirahmetli@gmail.com.
 
 ## 9. Compliance with Google Play Policies
-The app fully complies with the Google Play Developer Policies. Permissions are only requested to provide core functionality as required by policy.
-
-The app fully complies with the Google Play Developer Policies.  
-Permissions are only requested to provide core functionality as required by policy.
+The app fully complies with the Google Play Developer Policies. Permissions are only requested to provide core functionality as required by policy. 
